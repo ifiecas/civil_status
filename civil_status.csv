@@ -1,34 +1,199 @@
-﻿YEAR,Single,Married,Widower,Separated,Divorced,Not Reported
-1988," 31,989 "," 23,530 "," 2,133 ", 134 , 143 , 91 
-1989," 30,338 "," 23,203 "," 1,858 ", 98 , 143 , 105 
-1990," 33,477 "," 27,005 "," 2,299 ", 127 , 194 , 47 
-1991," 31,989 "," 27,559 "," 2,517 ", 186 , 192 , 21 
-1992," 33,759 "," 27,976 "," 2,123 ", 131 , 159 , 6 
-1993," 33,589 "," 29,987 "," 2,432 ", 148 , 234 ,
-1994," 32,760 "," 28,911 "," 2,491 ", 149 , 220 ,
-1995," 29,663 "," 24,439 "," 1,818 ", 158 , 163 , 1 
-1996," 29,747 "," 28,399 "," 2,393 ", 182 , 192 ,
-1997," 24,990 "," 26,287 "," 2,341 ", 172 , 269 ,
-1998," 18,569 "," 18,795 "," 1,415 ", 103 , 127 ,
-1999," 19,451 "," 19,081 "," 1,661 ", 135 , 179 ,
-2000," 25,438 "," 23,583 "," 1,657 ", 154 , 179 , 20 
-2001," 24,721 "," 24,959 "," 1,916 ", 233 , 219 , 6 
-2002," 28,118 "," 27,100 "," 2,015 ", 179 , 306 , 2 
-2003," 26,687 "," 26,233 "," 1,804 ", 172 , 239 , 2 
-2004," 32,870 "," 29,577 "," 1,946 ", 208 , 323 ,   
-2005," 34,346 "," 32,056 "," 2,035 ", 239 , 347 , 5 
-2006," 40,505 "," 39,007 "," 2,616 ", 303 , 536 ,   
-2007," 40,200 "," 36,128 "," 3,295 ", 318 , 656 , 2 
-2008," 35,250 "," 32,390 "," 2,341 ", 264 , 538 , 17 
-2009," 41,119 "," 34,700 "," 2,874 ", 347 , 581 , 97 
-2010," 47,143 "," 35,564 "," 2,359 ", 380 , 609 , 20 
-2011," 44,825 "," 35,214 "," 2,439 ", 338 , 579 , 15 
-2012," 43,908 "," 35,776 "," 2,866 ", 401 , 675 , 14 
-2013," 41,388 "," 33,164 "," 2,639 ", 368 , 623 , 46 
-2014," 45,280 "," 32,062 "," 2,307 ", 345 , 657 , 38 
-2015," 52,957 "," 36,238 "," 2,671 ", 350 , 754 , 28 
-2016," 50,236 "," 35,592 "," 2,436 ", 305 , 703 , 82 
-2017," 46,211 "," 30,646 "," 1,813 ", 329 , 658 , 122 
-2018," 40,668 "," 30,069 "," 1,998 ", 277 , 614 , 93 
-2019," 36,804 "," 25,563 "," 1,799 ", 261 , 680 , 57 
-2020," 8,513 "," 6,607 ", 349 , 70 , 118 , 46 
+year,civil_status,civil_count
+1988,Single,31989
+1989,Single,30338
+1990,Single,33477
+1991,Single,31989
+1992,Single,33759
+1993,Single,33589
+1994,Single,32760
+1995,Single,29663
+1996,Single,29747
+1997,Single,24990
+1998,Single,18569
+1999,Single,19451
+2000,Single,25438
+2001,Single,24721
+2002,Single,28118
+2003,Single,26687
+2004,Single,32870
+2005,Single,34346
+2006,Single,40505
+2007,Single,40200
+2008,Single,35250
+2009,Single,41119
+2010,Single,47143
+2011,Single,44825
+2012,Single,43908
+2013,Single,41388
+2014,Single,45280
+2015,Single,52957
+2016,Single,50236
+2017,Single,46211
+2018,Single,40668
+2019,Single,36804
+2020,Single,8513
+1988,Married,23530
+1989,Married,23203
+1990,Married,27005
+1991,Married,27559
+1992,Married,27976
+1993,Married,29987
+1994,Married,28911
+1995,Married,24439
+1996,Married,28399
+1997,Married,26287
+1998,Married,18795
+1999,Married,19081
+2000,Married,23583
+2001,Married,24959
+2002,Married,27100
+2003,Married,26233
+2004,Married,29577
+2005,Married,32056
+2006,Married,39007
+2007,Married,36128
+2008,Married,32390
+2009,Married,34700
+2010,Married,35564
+2011,Married,35214
+2012,Married,35776
+2013,Married,33164
+2014,Married,32062
+2015,Married,36238
+2016,Married,35592
+2017,Married,30646
+2018,Married,30069
+2019,Married,25563
+2020,Married,6607
+1988,Widower,2133
+1989,Widower,1858
+1990,Widower,2299
+1991,Widower,2517
+1992,Widower,2123
+1993,Widower,2432
+1994,Widower,2491
+1995,Widower,1818
+1996,Widower,2393
+1997,Widower,2341
+1998,Widower,1415
+1999,Widower,1661
+2000,Widower,1657
+2001,Widower,1916
+2002,Widower,2015
+2003,Widower,1804
+2004,Widower,1946
+2005,Widower,2035
+2006,Widower,2616
+2007,Widower,3295
+2008,Widower,2341
+2009,Widower,2874
+2010,Widower,2359
+2011,Widower,2439
+2012,Widower,2866
+2013,Widower,2639
+2014,Widower,2307
+2015,Widower,2671
+2016,Widower,2436
+2017,Widower,1813
+2018,Widower,1998
+2019,Widower,1799
+2020,Widower,349
+1988,Separated,0
+1989,Separated,0
+1990,Separated,0
+1991,Separated,0
+1992,Separated,0
+1993,Separated,0
+1994,Separated,0
+1995,Separated,0
+1996,Separated,0
+1997,Separated,0
+1998,Separated,0
+1999,Separated,0
+2000,Separated,0
+2001,Separated,0
+2002,Separated,0
+2003,Separated,0
+2004,Separated,0
+2005,Separated,0
+2006,Separated,0
+2007,Separated,0
+2008,Separated,0
+2009,Separated,0
+2010,Separated,0
+2011,Separated,0
+2012,Separated,0
+2013,Separated,0
+2014,Separated,0
+2015,Separated,0
+2016,Separated,0
+2017,Separated,0
+2018,Separated,0
+2019,Separated,0
+2020,Separated,0
+1988,Divorced,0
+1989,Divorced,0
+1990,Divorced,0
+1991,Divorced,0
+1992,Divorced,0
+1993,Divorced,0
+1994,Divorced,0
+1995,Divorced,0
+1996,Divorced,0
+1997,Divorced,0
+1998,Divorced,0
+1999,Divorced,0
+2000,Divorced,0
+2001,Divorced,0
+2002,Divorced,0
+2003,Divorced,0
+2004,Divorced,0
+2005,Divorced,0
+2006,Divorced,0
+2007,Divorced,0
+2008,Divorced,0
+2009,Divorced,0
+2010,Divorced,0
+2011,Divorced,0
+2012,Divorced,0
+2013,Divorced,0
+2014,Divorced,0
+2015,Divorced,0
+2016,Divorced,0
+2017,Divorced,0
+2018,Divorced,0
+2019,Divorced,0
+2020,Divorced,0
+1988,Not Reported,91
+1989,Not Reported,105
+1990,Not Reported,47
+1991,Not Reported,21
+1992,Not Reported,6
+1993,Not Reported,0
+1994,Not Reported,0
+1995,Not Reported,1
+1996,Not Reported,0
+1997,Not Reported,0
+1998,Not Reported,0
+1999,Not Reported,0
+2000,Not Reported,20
+2001,Not Reported,6
+2002,Not Reported,2
+2003,Not Reported,2
+2004,Not Reported,0
+2005,Not Reported,5
+2006,Not Reported,0
+2007,Not Reported,2
+2008,Not Reported,17
+2009,Not Reported,97
+2010,Not Reported,20
+2011,Not Reported,15
+2012,Not Reported,14
+2013,Not Reported,46
+2014,Not Reported,38
+2015,Not Reported,28
+2016,Not Reported,82
+2017,Not Reported,122
+2018,Not Reported,93
+2019,Not Reported,57
+2020,Not Reported,46
